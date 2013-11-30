@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.license      = 'MIT'
   s.author       = {"carlos" => "carlosk@163.com" }
   s.source       = { :git => "https://github.com/carlosk/YouMiPointWallSDK"}
-  s.framework = QuartzCore', 'SystemConfiguration', 'CFNetwork'
+  s.framework = 'QuartzCore', 'SystemConfiguration', 'CFNetwork'
   s.platform     = :ios
   s.libraries   = 'sqlite3'
   s.source_files = "lib/include/*.h"
